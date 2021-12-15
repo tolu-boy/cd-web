@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 
           <p className="hero-text">
             With CDcare marketplace, you can pay small-small at zero interest at
-            normal market price .
+            normal market price.
           </p>
         </div>
 
