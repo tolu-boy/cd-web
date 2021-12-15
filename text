@@ -1,0 +1,45 @@
+// import { AppBar, Button, Toolbar, Typography} from "@mui/material";
+// import Image from "next/image";
+// import Link from "next/link";
+
+// const Navbar = () => {
+//   return (
+//     <div>
+//       <AppBar className="appbar back-white">
+//         <Toolbar >
+//           <Typography variant="h6" >
+//             <Image
+//               src="/logo.svg"
+//               alt="Picture of cdcare logo"
+//               width={174}
+//               height={40}
+//             />
+//           </Typography>
+
+//           <div className="nav-links">
+//             <Link href="/" >
+//               <a>Shop now</a>
+//             </Link>
+
+//             <Link href="/about">
+//               <a>About us</a>
+//             </Link>
+
+//             <Link href="/contact">
+//               <a>Contact</a>
+//             </Link>
+
+//             <Link href="/testimonial">
+//               <a>Testimonials</a>
+//             </Link>
+//           </div>
+
+//           <Button variant="contained" className="nav-button" >Get the app</Button>
+         
+//         </Toolbar>
+//       </AppBar>
+//     </div>
+//   );
+// };
+
+// export default Navbar;
