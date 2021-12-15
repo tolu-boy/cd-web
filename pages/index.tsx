@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 
           <p className="hero-text">
             With CDcare marketplace, you can pay small-small at zero interest at
-            normal market price.
+            normal market price .
           </p>
         </div>
 
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
             src="/hero-background.png"
             alt="Picture of cdcare logo"
             width={1016}
-            height={558}
+            height={557}
           />
         </div>
 
