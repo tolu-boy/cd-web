@@ -22,7 +22,14 @@ a {
 
 /* hero-section */
 
-
+li{
+  list-style: none;
+}
+li:before {
+  padding: 3px;
+  content: "•";         /* Insert content that looks like bullets */
+  color: #AFB2B6;
+}
 
 
 

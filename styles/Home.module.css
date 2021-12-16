@@ -51,6 +51,58 @@ button.heroButton {
 }
 
 
+.marketPlace{
+  padding: 0 10% 5% 10%;
+
+}
+
+.marketHeading{
+  text-align: center;
+}
+
+button.marketButton{
+  text-align: center;
+  background: #F8F9FF;
+  color: #061754;
+  font-weight: 700;
+  border-radius: 52px;
+  border-color: #F8F9FF
+}
+
+
+.content{
+  font-size: 35px;
+  color: #464C53;
+  text-align: center;
+  line-height: 52px;
+  font-weight: 700;
+  padding: 0 20% 5% 20%;
+
+}
+
+
+.listHeading{
+  font-size: 20px;
+  color: #16191D;
+  font-weight: 700;
+  padding-top: 3%;
+}
+.space{
+  padding-top: 15%;
+
+}
+
+.listText{
+  font-size: 15px;
+  color: #464C53;
+  font-weight: 300;
+  padding-right: 30%;
+  
+}
+
+
+
+/* media queries */
 @media screen and (max-width: 904px) {
 
   .heroSection {
@@ -86,5 +138,7 @@ button.heroButton {
     margin-top: -20%;
     margin-left: 70%;
   }
+  
+  
   
 }
