@@ -46,6 +46,12 @@ const Home: NextPage = () => {
           />
         </div>
       </section>
+
+
+<section className="marketPlace">
+
+</section>
+      
     </div>
   );
 };
