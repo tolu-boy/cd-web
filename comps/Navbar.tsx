@@ -11,6 +11,7 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import Image from "next/image";
 import Link from "next/link";
+import styles from './nav.module.css'
 
 const pages = ["Products", "Pricing", "Blog"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -40,7 +41,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <AppBar position="static" className="appbar back-white">
+      <AppBar position="static" className={`${styles.backwhite} ${styles.appbar}`} >
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Typography
@@ -72,7 +73,7 @@ const Navbar = () => {
             </Typography>
 
             <Box sx={{ flexGrow: 0.01, display: { xs: "flex", md: "none" } }}>
-              <Button variant="contained" className="nav-button">
+              <Button variant="contained" className={styles.navButton}>
                 Get the app
               </Button>
             </Box>
@@ -106,7 +107,7 @@ const Navbar = () => {
                   display: { xs: "block", md: "none" },
                 }}
               >
-                <div className="nav-links">
+                <div className={styles.navLinks}>
                   <MenuItem onClick={handleCloseNavMenu}>
                     <Link href="/">
                       <a>Shop now</a>
@@ -135,7 +136,7 @@ const Navbar = () => {
             </Box>
 
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-              <div className="nav-links">
+              <div className={styles.navLinks}>
                 <Link href="/">
                   <a>Shop now</a>
                 </Link>
@@ -155,13 +156,15 @@ const Navbar = () => {
             </Box>
 
             <Box sx={{ flexGrow: 0.01, display: { xs: "none", md: "flex" } }}>
-              <Button variant="contained" className="nav-button">
+              <Button variant="contained" className={styles.navButton}>
                 Get the app
               </Button>
             </Box>
           </Toolbar>
         </Container>
       </AppBar>
+
+     
     </div>
   );
 };

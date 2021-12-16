@@ -1,0 +1,31 @@
+
+  
+  header.backwhite {
+    background-color: white ;
+  }
+  
+  header.appbar {
+    box-shadow: none;
+    padding-top: 15px;
+    padding-left: 5%;
+  }
+  
+  .navLinks {
+    padding-left: 10%;
+  }
+  
+  .navLinks a {
+    padding-right: 30px;
+    font-weight: 500;
+    font-size: 13px;
+  }
+  
+  .navLinks a:hover {
+    color: #fa7a18;
+  }
+  
+  button.navButton {
+    border-radius: 40px;
+    background: #2764ed;
+    text-transform: none;
+  }
